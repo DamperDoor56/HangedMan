@@ -1,9 +1,4 @@
-
-type Message = {
-    isWinner: boolean, 
-    isLoser: boolean,
-    wordToGuess: string
-}
+import { Message } from "@/interfaces/Message/Message";
 
 export function Message({ isWinner, isLoser,wordToGuess}: Message) {
    return (
